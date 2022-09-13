@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Noto+Serif&family=Poppins:wght@300;400&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Roboto:wght@100&display=swap');
+
+.sidebar {
+    background-color: rgb(185, 183, 183);
+    width: 400px;
+    font-family: 'Combo', cursive;
+    height: 100vh;
+    transition: transform 0.3s ease;
+
+}
+
+.sidebar nav {
+    padding: 45px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: xx-large;
+    padding: 33px 0;
+    font-weight: bold;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+}
+
+.main {
+    width: 90%;
+}
+
+.infoContainer {
+    height: 75vh;
+    width: 120vh;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightsteelblue;
+    margin: 10px 80px;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hello {
+    font-size: 35px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 25px;
+}
+
+.aboutmore {
+    font-size: 25px;
+}
+
+.btn{
+    margin-top: 30px;
+}
+
+.btn{
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(67, 78, 156);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 3px;  
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 10px 20px;
+     font-size: 15px;
+     margin: 15px 0;
+
+}
+
+.btn button:hover {
+    color: rgb(67, 78, 156);
+    background-color: azure;
+}
+
+.devPic img {
+    width: 300px;
+    height: 75vh;
+}
+
+.contactform {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 30px;
+    padding-top: 130px;
+    background-color: antiquewhite;
+}
+
+
+.contactform h1 {
+
+    font-family: 'Combo', cursive;
+    padding: 20px;
+
+}
+.contactform div {
+
+    padding: 10px 0;
+}
+.contactform div input {
+
+    width: 220px;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+.blogcontainer{
+    /* background-color: cadetblue; */
+    margin: 10px 80px;
+}
+.blogcontainer h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: justify;
+    text-align: center;
+    font-family: 'Combo', cursive;
+
+}
+.blogcontainer h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.blogcontainer h5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+.infocontainer{
+    padding-top: 200px;
+    justify-content: center;
+    display: flex;
+    background-color: cyan;
+}
+.infocontainer h1{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: justify;
+    text-align: center;
+    font-family: 'Combo', cursive;
+    font-size: 50px;
+}
+.infocontainer h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: justify;
+    text-align: center;
+    font-family: 'Combo', cursive;
+    font-size: 30px;
+
+}
+.infocontainer p{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.cross{
+    margin-left: 285px;
+    margin-top: 5px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
